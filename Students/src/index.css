@@ -1,0 +1,35 @@
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.name-lastname-element {
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.half {
+  flex: 1;
+}
+
+.form-create-student{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
